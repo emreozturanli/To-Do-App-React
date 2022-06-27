@@ -1,0 +1,28 @@
+@import './reset';
+@import './variables';
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .todoP{
+        display: flex;
+        align-items: center;
+
+        p {
+        font-size: 1.1rem;
+        width: 220px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $white;
+        }
+    }
+
+    .icons,
+    .arrow {
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+
+}
